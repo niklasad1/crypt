@@ -1,5 +1,5 @@
 
-# usage python crypt.py {--encrypt|decrypt|} {--file|folder}
+# usage python crypt.py {encrypt|decrypt|random} {file|folder|size}
 
 #!/usr/bin/env python
 import sys
@@ -118,6 +118,4 @@ def main():
     sys.exit(1)
 
 if __name__ == "__main__":
-  start_time = time.time()
   main()
-  print("--- %s seconds ---" % (time.time() - start_time))

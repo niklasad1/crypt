@@ -1,6 +1,6 @@
 # Crypt
 
-Encrypt files or folders using GnuPG.
+Encrypt files or folders using [GnuPG](https://www.gnupg.org/).
 
 ## Usage
 ```
